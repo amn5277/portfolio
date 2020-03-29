@@ -1,0 +1,28 @@
+.home-inner{
+    background-color: palevioletred;
+    background-image: url(/../assets/helloWorld.jpg);
+}
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:38%;
+    z-index:1;
+    color: gray;
+    
+}
+.caption h1{
+    font-size: 3.8;
+    font-weight: 300;
+    letter-spacing: .08rem;
+    padding-bottom: .3rem;
+}
+.caption h3{
+    padding-bottom: .7rem;
+}
+.btn-lg{
+    border-width: medium;
+    border-color: slategrey;
+    border-radius: 0;
+    font-size:1.3rem;
+}

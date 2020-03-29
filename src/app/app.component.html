@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand"><img src="/assets/whiteSignature.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/'">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/blogs'">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/projects'">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/wisdom'">Wisdom</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<router-outlet></router-outlet>
+
