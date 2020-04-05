@@ -1,14 +1,13 @@
-.home-inner{
-    background-color: palevioletred;
-    background-image: url(/../assets/helloWorld.jpg);
-}
+
 .caption{
     width: 100%;
     max-width: 100%;
     position: absolute;
-    top:38%;
+    top:24%;
     z-index:1;
     color: gray;
+    padding-left: 20%;
+    padding-right: 20%;
     
 }
 .caption h1{

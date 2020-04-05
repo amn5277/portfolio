@@ -1,0 +1,29 @@
+.blogs{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:25%;
+    z-index:1;
+    color: gray;
+    padding-left: 18%;
+    padding-right: 18%;
+
+    
+}
+.blogs h1{
+    font: 3em sans-serif;
+    padding-bottom: 1.5rem;
+}
+.blogs a{
+    padding-bottom: 2rem;
+    font: 1.5em sans-serif;
+    text-decoration: none;
+    color: darkgray;
+}
+.blogs  a:hover{
+  color:black;
+}
+
+.post{
+    padding-bottom: 1.5rem;
+}
